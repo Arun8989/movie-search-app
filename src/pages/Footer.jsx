@@ -7,10 +7,10 @@ function Footer() {
           <div className="col-md-4">
             <h3>Useful Links</h3>
             <ul className="footer_menu">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/">About</a></li>
+              <li><a href="/">Services</a></li>
+              <li><a href="/">Contact</a></li>
             </ul>
           </div>
 
