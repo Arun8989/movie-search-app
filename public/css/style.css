@@ -113,6 +113,7 @@ border:1px solid #ddd;
     background:#ff0000d6;
     color:white;
     border:none;
+    margin-left: 10px;
 }
 
 /* movie cards */
@@ -399,6 +400,7 @@ text-decoration:none;
     margin-top: 20px;
 }
 
+<<<<<<< HEAD
 .loading_title{
     text-align:center;
 }
@@ -425,3 +427,16 @@ text-decoration:none;
 .loading_state p{
     text-align:center;
 }
+=======
+#typeFilter{
+   padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  margin-left: 10px;
+}
+>>>>>>> 564ed39175ef19f9683f42851e73d273a042b709
