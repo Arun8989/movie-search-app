@@ -1,8 +1,9 @@
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 function MovieCard({ movie }){
 
 const navigate = useNavigate();
+const location = useLocation();
 
 return(
 
@@ -15,7 +16,7 @@ return(
 <h3>{movie.Title}</h3>
 
 <button
-onClick={()=>navigate(`/movie/${movie.imdbID}`)}
+onClick={()=>navigate(`/movie/${movie.imdbID}`, { state: { from: `${location.pathname}${location.search}` } })}
 >
 View Movie Details
 </button>

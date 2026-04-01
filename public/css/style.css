@@ -398,3 +398,30 @@ text-decoration:none;
     text-align: center;
     margin-top: 20px;
 }
+
+.loading_title{
+    text-align:center;
+}
+
+.loading_state_wrapper{
+    width:100%;
+    min-height:220px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.loading_state{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:32px 16px;
+}
+
+.loading_state h2,
+.loading_state p{
+    text-align:center;
+}

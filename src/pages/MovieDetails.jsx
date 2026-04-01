@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useLocation, useNavigate, useParams } from "react-router-dom";
 import { getMovieDetails } from "../api/omdb";
 
 function MovieDetails(){
 
   const { id } = useParams();
   const navigate = useNavigate();
+  const location = useLocation();
 
   const [movie,setMovie] = useState(null);
 
@@ -83,7 +84,7 @@ function MovieDetails(){
 
         <button
           className="back_btn"
-          onClick={() => navigate("/")}
+          onClick={() => navigate(location.state?.from || "/")}
         >
           Back to Movies
         </button>
