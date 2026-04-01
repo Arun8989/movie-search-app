@@ -400,7 +400,6 @@ text-decoration:none;
     margin-top: 20px;
 }
 
-<<<<<<< HEAD
 .loading_title{
     text-align:center;
 }
@@ -427,7 +426,7 @@ text-decoration:none;
 .loading_state p{
     text-align:center;
 }
-=======
+
 #typeFilter{
    padding: 8px 12px;
   border: 1px solid #ccc;
@@ -439,4 +438,3 @@ text-decoration:none;
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
   margin-left: 10px;
 }
->>>>>>> 564ed39175ef19f9683f42851e73d273a042b709
